@@ -41,6 +41,9 @@ function cargarJuego() {
         
         document.getElementById("NumeroClicks").innerHTML = parseInt(numeroclick);
         document.getElementById("preciocursor").innerHTML = parseInt(preciocursor);
+        document.getElementById("precioabuela").innerHTML = parseInt(precioabuela);
+        document.getElementById("preciogranja").innerHTML = parseInt(preciogranja);
+        document.getElementById("preciomina").innerHTML = parseInt(preciomina);
         document.getElementById("clickporsegundo").innerHTML = clickautomatico.toFixed(1);
     }
 }
