@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es_ES">
+  <head>
+    <meta charset="utf-8">
+    <title>Cuki clicker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="navbar">
+      <p class="whitetext">Clica Galleta, la copia barata de Cookie Clicker.</p>
+      <a href="../index.html" target="_blank">
+        <p class="whitetext botonnavbar">Creado por: Exilito</p>
+      </a>
+    </header>
+    <main>
+
+
+      <div class="flex-row">
+        <div class="contenedor principal">
+          <p class="text-shadow numero-clicks"><span id="NumeroClicks">0</span> galletas</p>
+          <p class="whitetext text-shadow numero-clicks"><span id="clickporsegundo">0</span> c/s</p>
+          <button class="galleta" onclick="clica()"><img src="img/galleta.png" width="300px" height="300px"></button>
+          <button class="boton" onclick="guardarJuego()">Guardar Partida</button>
+        </div>
+
+        <div class="contenedor tienda">
+          <h1 id="titulotienda">TIENDA!!!</h1>
+          <br>
+          <button class="boton" onclick="agregarcursor()">Cursor (+0.1 g/s)</button>
+          <p class="whitetext">Precio: <span id="preciocursor">15</span> galletas</p>
+          <br>
+          <button class="boton" onclick="agregarabuela()">Abuela (+1 g/s)</button>
+          <p class="whitetext">Precio: <span id="precioabuela">100</span> galletas</p>
+          <br>
+          <button class="boton" onclick="agregargranja()">Granja (+8 g/s)</button>
+          <p class="whitetext">Precio: <span id="preciogranja">1000</span> galletas</p>
+          <br>
+          <button class="boton" onclick="agregarmina()">Mina (+47 g/s)</button>
+          <p class="whitetext">Precio: <span id="preciomina">12000</span> galletas</p>
+
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </main>
+    <footer></footer>
+  </body>
+</html>
